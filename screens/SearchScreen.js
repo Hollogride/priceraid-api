@@ -14,7 +14,8 @@ import {
   Platform,
 } from "react-native";
 
-const API_BASE = "http://10.190.79.199:5000/search";
+const API_BASE = "https://priceraid-api.onrender.com/search";
+
 
 const SearchScreen = () => {
   const [query, setQuery] = useState("");
